@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UFT-8">
+        <meta http-equiv="X-UA-Compatible" content="IE-edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>PORTFOLIO PHLELA PETER VUNDLA</title>
+
+        <link rel="stylesheet" href="styleMe.css">
+
+        <script src="https://kit.fontawesome.com/2c343e7954.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <div id="header">
+            <div class "container">
+                <nav>
+                    <img src="PeterLogo.png" class="logo">
+                    <ul id="sidemenu">
+                        <li><a href="#header">Home</a></li>
+                        <li><a href="#about">About</a></li>
+                        <li><a href="#services">Services</a></li> 
+                        <li><a href="#portfolio">Portfolio</a></li>
+                        <li><a href="#contact">Contacts</a></li>
+
+                        <i class="fa-solid fa-xmark" onclick="closemenu"></i>
+                    </ul>
+
+                    <i class="fa-solid fa-bars" onclick="openmenu"></i>
+
+                </nav>
+                <div class="header-text">
+                    <p>Web Developer/UI Designer</p>
+                    <h4>Hi, I'm <span>Peter Vundla</span><br> From South Africa</h4>
+                </div>
+            </div>
+        </div>
+        <!-------------about---------------->
+        <div id="about">
+            <div class="container">
+                <div class="row">
+                    <div class="about-col-1">
+                        <img src="aboutmepic.png">
+                    </div>
+
+                    <div class="about-col-2">
+                        <h3 class="subtitle">About Me</h3>
+                        <p>Hi! My name is Peter Vundla, and I'm a Durban based 
+                        freelance<br>Web design/developer. I enjoy building everything from 
+                        small<br>business sites to rich interractive web apps, posses adverse set <br>
+                        of skills ranging from Design, HTML, CSS + Javascript. Always keen<br>
+                        on working with new ideas.<br><br> </p>
+
+                        <div class="tab-titles">
+                            <p class="tab-links active-link" onclick="opentab('Skills')">Skills</p>
+                            <p class="tab-links" onclick="opentab('Experience')">Experience</p>
+                            <p class="tab-links" onclick="opentab('Education')">Education</p>
+                        </div>
+
+                        <!----Contents(experience,skills and education)---->
+                        <div class="tab-contents active-tab" id="Skills">
+                            <ul>
+                                <li><span>UI</span><br>Designing Web/App interfaces</li>
+                                <li><span>Web Developement</span><br>Web app Developement</li>
+                                <li><span>App Developement</span><br>Building Andriod/iOS apps</li>
+                                <li><span>Data Analyst</span><br>Designing and maintaining data systems and databases</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Experience">
+                            <ul>
+                                <li><span>2022 - current</span><br>UI Designer Training at Udemy </li>
+                                <li><span>2022 - 2023</span><br>Building Andriod/iOS apps and Web Developement at ALX</li>
+                                <li><span>2022 - 2022</span><br>Data Science Learnership at AATE</li>
+                                <li><span>2022 - 2022</span><br>Data Cleansing,Sorting and Visualisation and working with PosgreSQL at InternMacth</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="Education">
+                            <ul>
+                                <li><span>2022</span><br>Designing Web/App Training at Udemy</li>
+                                <li><span>2022</span><br>Data Science Learnership from AATE</li>
+                                <li><span>2021</span><br>ICT Diploma from Durban University of Technology(DUT)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-----------------Services---------------->
+        <div id="services">
+           <div class="container">
+            <h3 class="subtitle"><span>My Services</span></h3>
+            <div class="services-list">
+                <div>
+                    <i class="fa-sharp fa-solid fa-crop-simple"></i>
+                    <h2>Web Design</h2>
+                    <p>Plan, create and code internet sites and web pages,
+                    many of which combine text with sounds, pictures, graphics and video clips</p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store-ios"></i>
+                    <h2>UI/UX Design</h2>
+                    <p>Create the user interface for an app, website, or other interactive media,
+                    Develop intuitive, usable, and engaging interactions and visual designs for mobile
+                    </p>
+                    <a href="#">Learn More</a>
+                </div>
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>App Developer</h2>
+                    <p>Create computer programs that performs different tasks for diffirent business requires</p>
+                    <a href="#">Learn More</a>
+                </div>
+            </div>
+           </div>
+        </div>
+        <!----------------Portfolio------------------->
+        <div id="portfolio">
+            <div class="container">
+                <h4 class="subtitle"><span>My Work</span></h4>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="mywork2.png">
+                        <img src="mywork3.png">
+                        <div class="layer">
+                            <h4>website</h4>
+                            <p>The website enables you to cast Votes online
+                                anywhere you are at easy..</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="myworkdata.png">
+                        <img src="dashb.png">
+                        <div class="layer">
+                            <h4>Dashboard</h4>
+                            <p>Data Analysis work dashboard market overview..</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="myworke.png">
+                        <div class="layer">
+                            <h4>Online Shopping App</h4>
+                            <p>The app connects buyers to a wolrd of sytle and glamour with affordable offers of new and custom sunglasses</p>
+                            <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                        </div>
+                    </div>
+                </div>
+                <a href="#" class="btn">See More</a>
+            </div>
+        </div>
+
+        <!-------------------Contact------------------>
+        <div id="contact">
+            <div class="container">
+                <div class="row">
+                    <div class="contact-left">
+                        <h2 class="subtitle">Contact Me</h2>
+                        <p><i class="fa-solid fa-envelope"></i> peter.vundla@gmail.com</p>
+                        <p><i class="fa-sharp fa-solid fa-phone-volume"></i> 0785375370</p>
+                        <div class="social-icons">
+                            <a href="https://www.linkedin.com/in/phelela-peter-vundla-03b6a01a3/"><i class="fa-brands fa-linkedin"></i></a>
+                            <a href="https://web.facebook.com/"><i class="fa-brands fa-facebook"></i></a>
+                            <a href="https://twitter.com/SkateMR_Pstreet"><i class="fa-brands fa-twitter"></i></a>
+                            <a href="https://www.instagram.com/skate_cpeter/?hl=en"><i class="fa-brands fa-square-instagram"></i></a>
+                        </div>
+                        <a href="petergradcv.pdf" download class="btn btn2">Download Resume</a>
+                    </div>
+                    <div class="contact-right">
+                        <form name="submit-to-google-sheet">
+                            <input type="text" name="Name" placeholder="Your Name" required>
+                            <input type="email" name="Email" placeholder="Your Email" required>
+                            <textarea name="Message"  rows="6" placeholder="Your Message"></textarea>
+                            <button type="submit" class="btn btn2">Submit</button>
+                        </form>
+                        <span id="msg"></span>
+                    </div>
+                </div>
+            </div>
+            <div class="copyright">
+                <p>Copyright © Peter  Vundla. Made with <i class="fa-solid fa-heart"></i> by Skate</p>
+            </div>
+        </div>
+
+
+        <!---Javascrip function for showing skills,experience and Ed-->
+        <script>
+
+            var tablinks = document.getElementsByClassName("tab-links");
+            var tabcontents = document.getElementsByClassName("tab-contents");
+           
+            function opentab(tabname){
+                for(tablink of tablinks){
+                    tablink.classList.remove("active-link");
+                }
+                for(tabcontent of tabcontents){
+                    tabcontent.classList.remove("active-tab");
+                }
+                event.currentTarget.classList.add("active-link");
+                document.getElementById(tabname).classList.add("active-tab");
+            }
+
+        </script>
+    
+        <script>
+            var sidemeu = document.getElementById("sidemenu");
+
+            function openmenu(){
+                sidemeu.style.right = "0";
+            }
+            function closenmenu(){
+                sidemeu.style.right = "-200px";
+            }
+        </script> 
+<script>
+    const scriptURL = 'https://script.google.com/macros/s/AKfycbyy1kJ-v7Z1rIIWxfUeCZEH8j4brBzGZds4bBr2J3BNIjOb4rtRNUFfbuprhYIoByef/exec'
+    const form = document.forms['submit-to-google-sheet']
+    const msg = document.getElementById("msg")
+  
+    form.addEventListener('submit', e => {
+      e.preventDefault()
+      fetch(scriptURL, { method: 'POST', body: new FormData(form)})
+        .then(response => {
+            msg.innerHTML = "Message sent successfully"
+            setTimeout(function(){
+                msg.innerHTML = ""
+            },6000)
+            form.reset()
+        })
+        .catch(error => console.error('Error!', error.message))
+    })
+  </script>        
+
+    </body>
+
+</html>
